@@ -1,0 +1,59 @@
+
+body {
+	padding-top: 70px;
+	/* Background Gradient for Analagous Colors */
+
+    /*background-color: #00FF80;*/
+    /* For WebKit (Safari, Chrome, etc) */
+    /*background: #00FF80 -webkit-gradient(linear, left top, left bottom, from(#00D4FF), to(#00FF80)) no-repeat;*/
+    /* Mozilla,Firefox/Gecko */
+    /*background: #00FF80 -moz-linear-gradient(top, #00D4FF, #00FF80) no-repeat;*/
+    /* IE 5.5 - 7 */
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00D4FF, endColorstr=#00FF80) no-repeat;*/
+    /* IE 8 */
+    /*-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00D4FF, endColorstr=#00D4FF)" no-repeat;*/
+ 
+}
+
+nav {
+	background: white;
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	/*opacity: .7;*/
+}
+
+h1 {
+	text-align: center;
+	color: blue;
+}
+
+p {
+	text-align: center;
+	color: red;
+}
+
+button {
+	/*background: purple;*/
+	color: white;
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+	padding: .7rem .13rem;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
